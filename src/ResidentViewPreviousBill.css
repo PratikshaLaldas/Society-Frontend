@@ -1,0 +1,75 @@
+/* ResidentViewPreviousBill.css */
+.resident-view-previous-bill-body {
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Your background image and other body styles here */
+  }
+  
+  .resident-view-previous-bill-table {
+    border-collapse: collapse;
+    width: 115%;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    margin-left:-70px;
+
+  }
+  
+  .resident-view-previous-bill-table th,
+  .resident-view-previous-bill-table td {
+    border: 1px solid rgba(168, 159, 145, 1);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .resident-view-previous-bill-table th {
+    background-color: burgundy; /* Change to your desired color */
+    color: white;
+  }
+  
+  .resident-view-previous-bill-table tr:nth-child(even) {
+    background-color: rgba(245, 245, 220, 1);
+  }
+  
+  .resident-view-previous-bill-table tr:nth-child(odd) {
+    background-color: rgba(230, 230, 190, 1);
+  }
+  
+
+  h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: navy;
+    text-align: center;
+    margin-left:-80px;
+    font-size: 27px;
+  }
+  
+ 
+  .width{
+    width:146px;
+  }
+
+
+  .width-date{
+    width:100px;
+  }
+
+  .width-area{
+    width:207px;
+  }
+
+  .width-amount{
+    width:118px;
+  }
+
+  .width-period{
+    width:100px;
+  }
+
+
+  

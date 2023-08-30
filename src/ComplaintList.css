@@ -1,0 +1,81 @@
+/* ComplaintList.css */
+.complaint-list-body {
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Your background image and other body styles here */
+  }
+  
+  .complaint-table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+  }
+  
+  .complaint-table th,
+  .complaint-table td {
+    border: 1px solid rgba(168, 159, 145, 1);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .complaint-table th {
+    background-color: burgundy; /* Change to your desired color */
+    color: white;
+  }
+  
+  .complaint-table tr:nth-child(even) {
+    background-color: rgba(245, 245, 220, 1);
+  }
+  
+  .complaint-table tr:nth-child(odd) {
+    background-color: rgba(230, 230, 190, 1);
+  }
+  
+  .icon-complaint-edit-button {
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .icon-complaint-edit-button:hover {
+    color: #007bff; /* Change the color as desired */
+  }
+
+  .icon-complaint-delete-button {
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .icon-complaint-delete-button:hover {
+    color: red; /* Change the color as desired */
+  }
+  
+  .complaint-column{
+    min-width: 35%; /* You can adjust the value as needed */
+   
+  }
+
+  .complaint-col {
+    min-width: 15%; /* You can adjust the value as needed */
+    width: auto;
+  }
+  
+  .action-col {
+    min-width: 30%; /* You can adjust the value as needed */
+    width: auto;
+  }
+
+  h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: navy;
+    text-align: center;
+    margin-left:-80px;
+    font-size: 27px;
+  }
+  

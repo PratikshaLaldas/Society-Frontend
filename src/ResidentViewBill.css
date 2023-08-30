@@ -1,0 +1,66 @@
+/* ResidentViewBill.css */
+
+.resident-view-bill-body {
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-image: url("../public/images/background4.webp");*/
+    /* Your background image and other body styles here */
+  }
+
+.bill-table {
+    border-collapse: collapse;
+    width: 70%;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    margin-left:180px;
+    
+  }
+  
+  .bill-table th, .bill-table td {
+    border: 1px solid rgba(168, 159, 145, 1);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .bill-table th {
+    background-color: rgba(245, 245, 220, 1);
+  }
+  
+  .bill-table tr:nth-child(even) {
+    background-color: rgba(245, 245, 220, 1);
+  }
+  
+  .bill-table tr:hover {
+    background-color: rgba(230, 230, 190, 1);
+  }
+  
+  .bill-table button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left:740px;
+  }
+  
+  .bill-table button:hover {
+    background-color: #45a049;
+  }
+  
+  .bold-label {
+    font-weight: bold;
+  }
+
+  h3 {
+  
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    margin-top:20px;
+    /* Your h1 styles here */
+  }

@@ -1,0 +1,57 @@
+/* CommitteeNavbar.css */
+
+/* Reset default margin and padding for body and nav */
+body, nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply styles to the navbar */
+  .navbar {
+    background-color: #8B4513;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add some padding for spacing on the sides */
+  }
+  
+  .navbar-brand {
+    margin-right: 20px;
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  /* Apply styles to navbar links */
+  .nav-link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Apply styles to the Logout button */
+  .nav-link.logout-link {
+    cursor: pointer;
+    border: 1px solid white;
+    padding: 8px 16px;
+    border-radius: 20px;
+  }
+  
+  /* Apply styles for hovering over the links */
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Apply styles for hovering over the Logout button */
+  .nav-link.logout-link:hover {
+    background-color: white;
+    color: #8B4513;
+  }
+  

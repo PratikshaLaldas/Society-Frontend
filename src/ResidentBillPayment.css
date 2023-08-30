@@ -1,0 +1,141 @@
+/* ResidentBillPayment.css */
+
+.resident-bill-payment-body {
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-image: url("../public/images/background4.webp");*/
+    /* Your background image and other body styles here */
+  }
+  
+  .resident-bill-payment-form-container {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    /* Your form container styles here */
+  }
+  
+  .resident-bill-payment-registerbox {
+    width: 400px;
+    height: 485px;
+    background: rgba(137, 207, 240, 0.6);
+    color: black;
+    position: relative;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    /* Your register box styles here */
+  }
+  
+  .resident-bill-payment-registerbox:hover {
+    background: rgba(161, 202, 241, 0.8);
+    /* Your hover styles here */
+  }
+  
+  .resident-bill-payment-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 155px;
+    /* Your avatar styles here */
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    /* Your h1 styles here */
+  }
+
+  .resident-bill-payment-registerbox label {
+    font-weight: bold; /* Make the labels bold */
+  }
+  
+  
+  .resident-bill-payment-registerbox input[type="text"],
+  .resident-bill-payment-registerbox input[type="number"]{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    padding: 0 2px;
+    /* Add your input styles here */
+  }
+  
+  .resident-bill-payment-register-button {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width:24%;
+    /* Your register button styles here */
+  }
+  
+  .resident-bill-payment-register-button:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+    /* Your register button hover styles here */
+  }
+  
+  .resident-bill-payment-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* Your button container styles here */
+  }
+  
+  
+  .two-fields {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .two-fields > div {
+    flex: 1;
+    max-width: calc(50% - 15px);
+  }
+
+  
+  .resident-bill-payment-registerbox input[type="number"][name="amount"] {
+    width: 30%;
+  }
+
+  .resident-bill-payment-cancel-button{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 18px;
+    padding: 0px;
+    cursor: pointer;
+    color:white;
+    width:24%;
+  }
+
+  .resident-bill-payment-cancel-button {
+    margin-left: 10px;
+    background-color: #CCCCCC;
+  }
+  
+  .resident-bill-payment-cancel-button:hover {
+    background-color: #999999;
+  }

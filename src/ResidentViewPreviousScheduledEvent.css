@@ -1,0 +1,63 @@
+/* ResidentViewPreviousSCheduledEvent.css */
+.resident-view-previous-scheduled-event-body {
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Your background image and other body styles here */
+  }
+  
+  .resident-view-previous-scheduled-event-table {
+    border-collapse: collapse;
+    width: 110%;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    margin-left:-40px;
+
+  }
+  
+  .resident-view-previous-scheduled-event-table th,
+  .resident-view-previous-scheduled-event-table td {
+    border: 1px solid rgba(168, 159, 145, 1);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .resident-view-previous-scheduled-event-table th {
+    background-color: burgundy; /* Change to your desired color */
+    color: white;
+  }
+  
+  .resident-view-previous-scheduled-event-table tr:nth-child(even) {
+    background-color: rgba(245, 245, 220, 1);
+  }
+  
+  .resident-view-previous-scheduled-event-table tr:nth-child(odd) {
+    background-color: rgba(230, 230, 190, 1);
+  }
+  
+
+  h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: navy;
+    text-align: center;
+    margin-left:-80px;
+    font-size: 27px;
+  }
+  
+ 
+  .width-time{
+    width:95px;
+  }
+
+
+  .width-date{
+    width:100px;
+  }
+
+
+  

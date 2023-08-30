@@ -1,0 +1,56 @@
+.resident-view-booked-slot-body {
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+   /* background-image: url("../public/images/background9.jpg");*/
+    /* Your background image and other body styles here */
+  }
+
+
+  .rbc-event {
+    
+    padding: 2px;
+    
+    background-color: #3174ad;
+    border-radius: 5px;
+    border: 1px solid #285e8e;
+    color: white;
+    cursor: pointer;
+ 
+  }
+
+ .color-event{
+  background-color: lightyellow;
+ }
+
+ .event {
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.rbc-event-label {
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+.rbc-event-content {
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+.resident-slot-btn{
+  margin-left:-1Px;
+  padding:6px;
+  font-size: 16px;
+}
+
+
+h2 {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: navy;
+  text-align: center;
+  margin-left:-80px;
+  font-size: 27px;
+}

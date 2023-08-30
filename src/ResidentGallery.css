@@ -1,0 +1,48 @@
+.resident-gallery{
+    background-position: center;
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    
+}
+
+.card-height {
+    height: 200px;
+   
+  }
+  
+  .gallery-card-link {
+    text-decoration: none;
+    /*background-color: #875682;*/
+    background-color:  #440047;
+    color:white;
+    font-size: 2px;
+  }
+  
+  .gallery-card-link:hover {
+    background-color:#663E53;
+  }
+  
+  .gallery-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-width{
+    width:400px;
+  }
+
+  .card-margin{
+    margin-left:20px;
+  }
+
+  h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: navy;
+    text-align: center;
+    margin-left:-80px;
+    font-size: 27px;
+  }
+

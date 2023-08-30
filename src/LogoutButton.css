@@ -1,0 +1,15 @@
+/* LogoutButton.css */
+.logout-button {
+    border: none;
+    border-radius: 10px; /* Adjust the radius for curved sides */
+    padding: 7px 20px; /* Adjust padding as needed */
+    background-color:#8B4513; /* Brownish color */
+    color: white; /* Text color */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .logout-button:hover {
+    background-color: #6a4a32; /* Darker shade on hover */
+  }
+  

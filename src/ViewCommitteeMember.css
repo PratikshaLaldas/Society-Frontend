@@ -1,0 +1,96 @@
+.ResidentNavbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #8B4513;
+  }
+  
+  .table-container {
+    margin-top: 100px; /* Adjust as needed */
+    padding-top: 80px; /* Make space for the navbar */
+    padding-bottom: 60px;
+    margin-left: 10%;
+  }
+ 
+  
+  .table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 28px;
+  }
+  
+  .table-centre {
+    text-align: center;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  .table th {
+    background-color:#8B0000;
+    color: white;
+  }
+  
+  .committeeHome-h3 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: navy;
+    text-align: center;
+    margin-left:-80px;
+    font-size: 25px;
+  }
+  
+  .button-link {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-left: 25px;
+    font-size: 15px;
+  }
+  
+  .button-link:hover {
+    opacity: 1;
+    background-color: #00427f;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    margin-left: 55px;
+    font-size: 18px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+    background-color: #52c781;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  .table-committeeMembers {
+    border-collapse: collapse;
+    width: 91%;
+    margin-top: 28px;
+  }
+  
+

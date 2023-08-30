@@ -1,0 +1,192 @@
+/*.body {
+    background-position: center;
+    font-family: sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../public/images/background2.jpg");
+   
+  }
+  
+  .form-container {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .registerbox {
+    width: 80%; 
+    max-width: 800px; 
+    background: rgba(137, 207, 240, 0.6);
+    color: black;
+    position: relative;
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  
+  .registerbox:hover {
+    background: rgba(161, 202, 241, 0.8);
+  }
+  
+  .avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 360px;
+  }
+*/
+
+.resident-body {
+    background-position: center;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../public/images/background4.webp");
+    width: 100%;
+    height: 200%;
+  }
+  .resident-form-container {
+    margin-top: 355px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .registerbox {
+    width: 80%; 
+    max-width: 800px; 
+    background: rgba(255, 255, 255, 0.65);
+    color: black;
+    position: relative;
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  
+  
+  .registerbox:hover {
+    background: rgba(161, 202, 241, 0.8);
+  }
+  
+  .avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 355px;
+  }
+
+
+
+
+  /*keep three input on same line*/
+  .input-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .input-group {
+    flex: 1;
+    min-width: 30%; /* Adjust the width based on your preference */
+  }
+  
+  
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .registerbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+  }
+  
+  .registerbox input,
+  .registerbox select {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    padding: 0 2px;
+  }
+  
+  .register-button {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left:282%;
+  }
+  
+  .register-button:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .clear-button,
+  .back-button {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 18px;
+    padding: 0 20px;
+    cursor: pointer;
+    color: white;
+    width: 100%;
+  }
+  
+  .clear-button {
+    margin-left: 10px;
+    background-color: #cccccc;
+  }
+  
+  .clear-button:hover {
+    background-color: #999999;
+  }
+  
+  .back-button {
+    margin-left: 10px;
+    background-color: #007bff;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .birth-year-picker {
+    display: block; /* Force the date picker to display as a block element */
+    margin-top: 22px; /* Adjust the margin as needed */
+    margin-left:-77px;
+    /* Add any other custom styles here */
+  }
+
+  .register-h1{
+    font-family: 'Mukta', sans-serif;
+    font-size: 28px;
+  }

@@ -1,0 +1,83 @@
+/* COmmitteeGetAllResident.css */
+.committee-view-all-resident-body {
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Your background image and other body styles here */
+  }
+  
+  .committee-view-all-resident-table {
+    border-collapse: collapse;
+    width: 110%;
+    border: 1px solid #ddd;
+    margin: 20px auto;
+    margin-left:-40px;
+
+  }
+  
+  .committee-view-all-resident-table th,
+  .committee-view-all-resident-table td {
+    border: 1px solid rgba(168, 159, 145, 1);
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .committee-view-all-resident-table th {
+    background-color: burgundy; /* Change to your desired color */
+    color: white;
+  }
+  
+  .committee-view-all-resident-table tr:nth-child(even) {
+    background-color: rgba(245, 245, 220, 1);
+  }
+  
+  .committee-view-all-resident-table tr:nth-child(odd) {
+    background-color: rgba(230, 230, 190, 1);
+  }
+
+
+  h2 {
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    color: navy;
+    text-align: center;
+    margin-left:-80px;
+    font-size: 27px;
+  }
+  
+  
+ 
+  .width-committee-event-time{
+    width:95px;
+  }
+
+
+  .width-committee-event-date{
+    width:100px;
+  }
+
+  .width-committee-view-all-resident-action{
+    width:130px;
+  }
+
+  .make-bill-button {
+    /* Add your button styling properties */
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid #007bff; /* Blue border color */
+    background-color:#3498db;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 20px;
+  }
+  
+  .make-bill-button:hover {
+    background-color:#0056b3; /* Blue background color on hover */
+    color: white;
+  }

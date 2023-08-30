@@ -1,0 +1,53 @@
+.carousel-container {
+    position: relative;
+    margin-top: 20px; /* Adjust as needed */
+    height: 600px; /* Set a fixed height for the carousel container */
+  }
+.carousel-image {
+
+    filter: blur(0px); 
+    height: 550px;
+
+  }
+.carousel-margin{
+    margin-top:40%
+}
+  .caption-middle {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: "Montserrat", Arial, sans-serif;
+    
+  }
+
+  .carousel-text {
+    font-size: 30px; /* Adjust the font size as per your requirement */
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+
+  .carousel-text-black{
+    color: black;
+  }
+  
+  .card-height{
+    height:400px;
+  }
+
+  .card-link {
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    background-color: #73C2FB;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 10);
+  }
+  
+  

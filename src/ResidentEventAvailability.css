@@ -1,0 +1,110 @@
+.resident-event-availability {
+    background-position: center;
+    font-family: sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    /* Add your background image and other body styles here */
+  }
+
+  
+  .resident-event-availability-form-container {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+   
+    /* Add your form container styles here */
+  }
+  
+  .resident-event-availability-registerbox {
+    width: 320px;
+    height: 580px;
+    background: rgba(137, 207, 240, 0.6);
+    color: black;
+    position: relative;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    
+    /* Add your register box styles here */
+  }
+  
+  .resident-event-availability-registerbox:hover {
+    background: rgba(161, 202, 241, 0.8);
+    /* Add your hover styles here */
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    /* Add your h1 styles here */
+  }
+
+  .resident-event-availability-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 20%;
+    position: absolute;
+    top: -50px;
+    left: 110px;
+    /* Your avatar styles here */
+  }
+
+  .resident-event-availability-registerbox label {
+    font-weight: bold; 
+  }
+  
+  .resident-event-availability-registerbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    /* Add your paragraph styles here */
+  }
+  
+  .resident-event-availability-registerbox select,
+  .resident-event-availability-registerbox input[type="date"],
+  .resident-event-availability-registerbox input[type="time"],
+  .resident-event-availability-registerbox input[type="number"] {
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    padding: 0 2px;
+    /* Add your input styles here */
+  }
+  
+  .resident-event-availability-button {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* Add your button styles here */
+  }
+  
+  .resident-event-availability-button:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+    /* Add your button hover styles here */
+  }
+  
+  .resident-event-availability-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* Add your button container styles here */
+  }
+  
